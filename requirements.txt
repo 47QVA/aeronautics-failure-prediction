@@ -1,0 +1,24 @@
+# Data handling
+numpy
+pandas
+h5py
+pyarrow
+
+# Modeling
+scikit-learn
+xgboost
+lightgbm
+
+# Notebooks / EDA
+jupyter
+matplotlib
+seaborn
+
+# Utilities
+tqdm
+joblib
+
+# Inference API (Phase 5)
+fastapi
+uvicorn[standard]
+pydantic

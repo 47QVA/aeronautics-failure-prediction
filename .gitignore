@@ -1,0 +1,36 @@
+# Raw and processed data (large, not committed — see data/README.md for fetch instructions)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Reference materials copied from the NASA download (large, third-party)
+docs/references/*
+!docs/references/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+models/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.claude/
+
+# Reference copy of the (private) website repo's internal docs -- not part of this project
+mywebsite_claude.md
